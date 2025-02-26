@@ -2,12 +2,11 @@ using Application.Features.Activities.Commands;
 using Application.Features.Activities.DTOs;
 using Application.Features.Activities.Queries;
 using Domain.Entities;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-[AllowAnonymous]
+
 public class ActivitiesController : BaseApiController
 {
     [HttpGet]
